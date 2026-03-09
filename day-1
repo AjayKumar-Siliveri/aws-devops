@@ -1,0 +1,65 @@
+AWS (Amazon Web Services) is the world's most widely adopted cloud computing platform, providing online access to computing resources, storage, databases, and other IT services.
+Launched in 2006 with Simple Storage Service (S3), AWS pioneered the cloud industry and now offers hundreds of services covering compute, storage, databases, machine learning, and more.
+
+What is Cloud Computing?
+Cloud computing is the on-demand delivery of IT resources over the internet with pay-as-you-go pricing.
+You only pay for what you use, and you can quickly access and scale resources like servers, storage, and databases as needed.
+Cloud computing and the Client-Server Model
+Cloud computing is built on the client-server model. Your device (the client) sends requests over the internet to remote servers, which process them and return results.
+
+Deployment Models
+There are three different kinds of deployment models:
+Cloud-based
+On-premises
+Hybrid
+These models describe how compute resources are accessed: over the internet, locally, or using a combination of both.
+
+Cloud-Based Deployment
+Everything runs in the cloud.
+You can build new applications or migrate existing ones, choosing your level of control, from managing virtual servers to using fully managed services.
+Example: An application with virtual servers, databases, and networking components all hosted in the cloud.
+
+On-Premises Deployment
+Resources run in your own data center using virtualization and management tools.
+Also known as private cloud deployment.
+Modern virtualization helps maximize hardware utilization and simplifies resource management.
+
+Hybrid Deployment
+Connect cloud resources to on-premises infrastructure.
+Useful when handling sensitive data or meeting specific regulatory requirements.
+
+Benefits of Cloud Computing
+Cloud computing offers benefits like cost savings, security, scalability, and flexibility.
+AWS highlights these six key benefits of cloud computing
+1. Pay Only for What You Use
+No upfront investment in data centers or servers. Start using services immediately, scale as you grow, and pay only for what you consume.
+2. Benefit from Massive Economies of Scale
+Sharing infrastructure with hundreds of thousands of customers lowers costs for everyone, giving businesses of all sizes access to advanced technologies at lower rates.
+3. Stop Guessing Capacity
+No more unused servers or capacity limits. Scale freely based on actual demand and pay only for what you use. 
+4. Increase Speed and Agility
+Provision resources in minutes instead of weeks. This flexibility lets you experiment, innovate, and iterate faster.
+5. Stop Spending Money Running Data Centers
+Eliminate the overhead of managing physical infrastructure and focus on your applications and customers instead.
+6. Go Global in Minutes
+Deploy applications worldwide using AWS data centers across the globe. Select regions close to your users for low latency and better performance.
+  
+AWS Global Infrastructure
+When you use AWS, your applications run on physical hardware located in data centers around the world. Understanding how this infrastructure is organized helps you design reliable, high-performing applications.
+This section covers where AWS services run, what categories of services are available, and how security responsibilities are divided.
+Regions and Availability Zones
+AWS infrastructure consists of Regions. These are physical locations around the world, each containing multiple Availability Zones (isolated data centers with redundant power and networking).
+This design provides high availability and fault tolerance. If one data center fails, others keep your application running.
+
+AWS Service Categories
+AWS organizes its services into these core categories:
+•	Compute - Run applications (EC2, Lambda)
+•	Storage - Store data (S3, EBS)
+•	Networking - Connect resources (VPC, Route 53)
+•	Databases - Manage data (RDS, DynamoDB)
+•	Security - Control access (IAM, KMS)
+
+AWS Shared Responsibility Model
+Security in AWS is a shared responsibility between AWS and the customer.
+AWS is responsible for: Security of the cloud - protecting the infrastructure (hardware, software, networking, facilities).
+You are responsible for: Security in the cloud - managing your data, access controls, and encryption.
